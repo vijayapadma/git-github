@@ -1,0 +1,36 @@
+https://docs.aws.amazon.com/cli/latest/index.html >>>>>>>>>>>>> 
+https://boto3.amazonaws.com/v1/documentation/api/latest/index.html?id=docs_gateway >>> Boto3 refrence 
+https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/examples-ec2-instances.html
+
+
+
+aws <command> <subcommand> [options and parameters]
+
+sudo pip install awscli
+sudo pip install --upgrade awscli
+sudo pip uninstall awscli
+aws --version
+
+
+Bundle installation 
+==============================================================
+$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+$ unzip awscli-bundle.zip
+$ ./awscli-bundle/install -b ~/bin/aws
+
+=================================================
+AWS CLI library:
+
+https://docs.aws.amazon.com/cli/latest/index.html
+===============================================================
+
+https://s3.amazonaws.com/aws-cli/AWSCLISetup.exe
+
+pip3 install awscli
+pip3 install --user --upgrade awscli
+aws ec2 create-key-pair --key-name MyKeyPair
+appwiz.cpl
+
+
+
+              
