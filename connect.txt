@@ -1,0 +1,11 @@
+<?php
+$username = "acloudguru";
+$password = "acloudguru";
+$hostname = "acloudguru.cujsqzzrrygr.us-east-1.rds.amazonaws.com";
+$dbname = "acloudguru";
+
+
+$dbhandle = mysql_connect($hostname,$username,$password) or die("unable to connect to MySQL");
+echo "Connected to MySQL using username - $username, password - $password, host - $hostname<br>";
+$selected = mysql_select_db("$dbname",$dbhandle) or die("Unable to connect to MySQL DB - check the database name and try again.");
+?>
