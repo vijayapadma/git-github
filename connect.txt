@@ -2,7 +2,7 @@
 $username = "acloudguru";
 $password = "acloudguru";
 $hostname = "acloudguru.cujsqzzrrygr.us-east-1.rds.amazonaws.com";
-$dbname = "acloudguru";
+$dbname = "acloudgur";
 
 
 $dbhandle = mysql_connect($hostname,$username,$password) or die("unable to connect to MySQL");
